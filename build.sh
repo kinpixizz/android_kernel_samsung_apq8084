@@ -72,7 +72,7 @@ mkdir output
 
 #################################### Toolchain #########################################
 
-export CROSS_COMPILE=/home/kevintm78/Toolchains/arm-eabi-5.3/bin/arm-eabi-
+export CROSS_COMPILE=/home/kevintm78/Toolchains/android_prebuilts_gcc_linux-x86_arm_arm-eabi/bin/arm-eabi-
 
 
 
