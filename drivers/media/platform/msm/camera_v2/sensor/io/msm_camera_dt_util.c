@@ -1825,7 +1825,7 @@ int msm_camera_power_up(struct msm_camera_power_ctrl_t *ctrl,
 			goto power_up_failed;
 		}
 	} else
-	  pr_warn("Warning : not power up cci device_type=%d\n", device_type);
+	  pr_err("Warning : not power up cci \n");
 
 	ctrl->check_power_on = true;
 
